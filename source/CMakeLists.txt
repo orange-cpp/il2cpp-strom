@@ -1,0 +1,1 @@
+target_sources(il2cpp_storm PRIVATE Camera.cpp GameAssembly.cpp)

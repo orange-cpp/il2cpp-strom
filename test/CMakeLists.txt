@@ -1,0 +1,6 @@
+project(il2cpp_storm_test_dll)
+
+add_library(il2cpp_storm_test_dll MODULE TestDll.cpp)
+
+target_link_libraries(il2cpp_storm_test_dll PRIVATE il2cpp_storm)
+target_link_libraries(il2cpp_storm_test_dll PRIVATE minhook)
